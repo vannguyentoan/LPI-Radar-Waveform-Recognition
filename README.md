@@ -8,3 +8,5 @@ This repository contains the end-to-end MATLAB codes of the LPI radar waveform r
 2. The MATLAB codes of radar waveform generation and time-frequency image transformation.
 3. The MATLAB codes of deep deep network development.
 4. The MATLAB codes of training model and performance evaluation.
+
+If there is any error or need to be discussed, please email to [Thien Huynh-The](https://sites.google.com/site/thienhuynhthe/home) via thienht@kumoh.ac.kr.
