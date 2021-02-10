@@ -4,9 +4,7 @@
 
 addpath(genpath("\tftb-0.2")); % Modify the pathname in your pc
 
-
 %% initial parameters configurations
-
 fs = 100e6; % sample frequency
 A = 1;      % amplitude
 waveforms = {'Rect','LFM','Costas','Barker','Frank','P1','P2','P3','P4','T1','T2','T3','T4'};   % 13 LPI waveform codes
