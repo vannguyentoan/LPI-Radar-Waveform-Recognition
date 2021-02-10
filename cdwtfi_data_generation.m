@@ -1,4 +1,6 @@
-% The codes of Choi-William distribution have been achieved from the
+% This present the MATLAB codes for LPI radar signal generation and Choi-Williams distribution-based time-frequency image generation.
+
+% The codes of Choi-Williams distribution have been achieved from the
 % Time-Frequency Toolbox in http://tftb.nongnu.org/ 
 % The TFTB is distributed under the terms of the GNU Public Licence.
 
@@ -55,7 +57,7 @@ for n = 22 : length(SNR)
                     multipathChannel.AveragePathGains = atenuations;
                     multipathChannel.MaximumDopplerShift = randi([10 1000]);
                     wav = type_Rect(N(idx),fs,A,fc(idx));
-                    wav = multipathChannel(wav'); % adding multipath channels
+                    wav = multipathChannel(wav');       % passing over multipath channels
                     wav = awgn(wav,SNR(n),'measured');
                     t=1:length(wav);
                     [CWD_TFD,~,~] = FTCWD(wav,t,1024,g,h,1,0,imgSize);
@@ -347,7 +349,7 @@ for n = 22 : length(SNR)
                     multipathChannel.AveragePathGains = atenuations;
                     multipathChannel.MaximumDopplerShift = randi([10 1000]);
                     wav = type_T4(N(idx), fs, A, fc(idx), Nps,B(idx));
-                    wav = multipathChannel(wav'); % adding multipath channels
+                    wav = multipathChannel(wav');       % adding multipath channels
                     wav = awgn(wav,SNR(n),'measured');
                     t=1:length(wav);
                     [CWD_TFD,~,~] = FTCWD(wav,t,1024,g,h,1,0,imgSize);
