@@ -4,7 +4,9 @@
 % Time-Frequency Toolbox in http://tftb.nongnu.org/ 
 % The TFTB is distributed under the terms of the GNU Public Licence.
 
+% Note: before running this codes, please extract the meterials.zip file into the same folder with this code.
 addpath(genpath("\tftb-0.2")); % Modify the pathname in your pc
+addpath 'waveform-types'
 
 %% initial parameters configurations
 fs = 100e6; % sample frequency
