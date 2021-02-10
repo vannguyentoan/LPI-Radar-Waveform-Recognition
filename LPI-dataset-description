@@ -1,0 +1,8 @@
+This is the dataset of Choi-Williams distribution-based time-frequency images of 13 LPI radar waveforms.
+
+The dataset presents 13 LPI radar waveform with 31 SNR levels, from -20 dB to +10 dB, with the step size of 1 dB.
+There are 1000 signals/waveform/SNR, where each signal is transformed to a gray-scale image with the size of 50x50.
+In the dataset, 13 folders are corresponding to 13 waveform classes: Rectangular, Barker, Costas, Frank, LFM, P1, P2, P3, P4, T1, T2, T3, and T4.
+The details of radio transmission channel can be found in the original dataset paper.
+Link for download the dataset as follows:
+https://o365kumoh-my.sharepoint.com/:u:/g/personal/thienht_office_kumoh_ac_kr/Ef0Q-CSsesxIjXD_OdxWw1kBihRf2bIEOlLjkUe_J89yRQ?e=Yc5Z6f
