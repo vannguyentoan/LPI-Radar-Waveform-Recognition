@@ -1,7 +1,9 @@
 # LPI-Radar-Waveform-Recognition
 Automotive radars, with a widespread emergence in the last decade, have faced various jamming attacks. Utilizing low probability of intercept (LPI) radar waveforms, as one of the essential solutions, demands an accurate waveform recognizer at the intercept receiver. Numerous conventional approaches have been studied for LPI radar waveform recognition, but their performance is inadequate under channel condition deterioration. By exploiting deep learning (DL) to capture intrinsic radio characteristics, we develop a convolutional neural network (CNN), namely LPI-Net, for automatic radar waveform recognition. In particular, radar signals are first analyzed by a time-frequency analysis using the Choi-Williams distribution. Subsequently, LPI-Net, primarily consisting of three sophisticated modules, is built to learn the representational features of time-frequency images, in which each module is constructed with a preceding maps collection to gain feature diversity and a skip-connection to maintain informative identity.
 
-The research paper associated with the source codes is now undergoing a major revision of the IEEE Wireless Communication Letters.
+The research paper associated with the source codes is now published on https://ieeexplore.ieee.org/document/9416299. 
+
+T. Huynh-The, V. -S. Doan, C. -H. Hua, Q. -V. Pham, T. -V. Nguyen and D. -S. Kim, "Accurate LPI Radar Waveform Recognition With CWD-TFA for Deep Convolutional Network," in IEEE Wireless Communications Letters, doi: 10.1109/LWC.2021.3075880.
 
 This repository contains the end-to-end MATLAB codes of the LPI radar waveform recognition, which includes:
 1. The MATLAB codes of Choi-Williams distribution which are referred from the Time-Frequency Toolbox at http://tftb.nongnu.org/ (The TFTB is distributed under the terms of the GNU Public Licence.) 
